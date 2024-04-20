@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Visual Novel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="initNovel()">
+    <div id="novelDiv">
+        <div id="background" style="position:absolute; width:100%; height:100%;"></div>
+        <div id="dialogDiv" style="position: absolute; bottom: 10px; width: 100%; text-align: center;"></div>
+    </div>
+
+
+    <audio id="backgroundMusic" preload="none" loop>
+        <source src="theme03.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="novel.js"></script>
+</body>
+</html>

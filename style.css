@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.917);
+}
+
+#novelDiv {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#dialogDiv {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(2, 255, 40);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.choice-button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.choice-button:hover {
+    background-color: #e8e8e8;
+}
